@@ -14,7 +14,7 @@ public class FirstTask {
     }
 
     static String DO(double[] c){
-        double[] max_values = new double[3];
+        double[] max_values = {-Double.MAX_VALUE, -Double.MAX_VALUE, -Double.MAX_VALUE};
         for (int i = 0; i< c.length; i++){
             if (c[i] >= max_values[0]){
                 max_values[0] = c[i];
